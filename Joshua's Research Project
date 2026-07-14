@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNsdDQQuiR9CDmGjvXI0Iol",
+      "authorship_tag": "ABX9TyOY0aAttgW+K1+9HROdP7r/",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -38,8 +38,7 @@
         "\n",
         "df.head()\n",
         "df.shape\n",
-        "df.info()\n",
-        "df.isna()"
+        "df.info()\n"
       ],
       "metadata": {
         "colab": {
@@ -414,7 +413,10 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "!jupyter nbconvert --to PDF \"Joshua's Research Project (Hurricanes)\"\n",
+        "!apt-get install texlive texlive-xetex texlive-latex-extra pandoc !pip install pypandoc"
+      ],
       "metadata": {
         "id": "sAI0a4EqqhjP"
       },
